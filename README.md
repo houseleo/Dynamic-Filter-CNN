@@ -8,7 +8,7 @@ This repository is the work of Pan Guanghua from Shanghai Jiaotong University an
 Further information about BATC, please visit: http://bat.sjtu.edu.cn/
 
 
-Further information please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/)
+Further information about the model please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/)
 
 ## Overview
 
