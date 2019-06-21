@@ -1,4 +1,4 @@
-# Dynamic-Filter-CNN for Object Classification in Point Clouds
+# Dynamic-Filter-CNN for 3D Object Classification in Point Clouds
 
 ## Authors
 
