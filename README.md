@@ -28,6 +28,8 @@ The model is implemented in TensorFlow.
 
 Our work borrows from many other papers in the field of 3D Point Cloud Deep Learning. 
 
+```bash
+
 Garimella, Mihir, and Prathik Naidu. “Beyond the Pixel Plane: Sensing and Learning in 	3D.” The Gradient, The Gradient, 27 Aug. 2018, thegradient.pub/beyond-the-pixel-	plane-sensing-and-learning-in-3d/.
 
 Li, Yangyan, et al. "PointCNN: Convolution on X-transformed points." Advances in Neural 	Information Processing Systems. 2018.
@@ -39,6 +41,8 @@ Qi, Charles Ruizhongtai, et al. "Pointnet++: Deep hierarchical feature learning 
 Wang, Yue, et al. "Dynamic graph cnn for learning on point clouds." arXiv preprint 	arXiv:1801.07829 (2018).
 
 Simonovsky, Martin, and Nikos Komodakis. "Dynamic edge-conditioned filters in 	convolutional neural networks on graphs." Proceedings of the IEEE conference on 	computer vision and pattern recognition. 2017.
+
+```
 
 ## Acknowledgement
 This code is heavily borrowed from [dgcnn](https://github.com/WangYueFt/dgcnn).
