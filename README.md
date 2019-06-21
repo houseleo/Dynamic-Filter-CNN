@@ -1,41 +1,41 @@
-# Dynamic Graph CNN for Learning on Point Clouds
-We propose a new neural network module dubbed EdgeConv suitable for CNN-based high-level tasks on point clouds including classification and segmentation. EdgeConv is differentiable and can be plugged into existing architectures.
+# Dynamic-Filter-CNN for Object Classification in Point Clouds
 
-[[Project]](https://liuziwei7.github.io/projects/DGCNN) [[Paper]](https://arxiv.org/abs/1801.07829)     
+## Side Note
+
+This repository is the work of Pan Guanghua from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is an on-going project under the Brain-Inspired Application Technology Center(BATC).
+
+
+Further information about BATC, please visit: http://bat.sjtu.edu.cn/
+
+
+Further information about the model please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/)
 
 ## Overview
-`DGCNN` is the author's re-implementation of Dynamic Graph CNN, which achieves state-of-the-art performance on point-cloud-related high-level tasks including category classification, semantic segmentation and part segmentation. 
 
-<img src='./misc/demo_teaser.png' width=800>
+We propose a new neural network for classification of objects in 3D point cloud data. We applied four layers of convolution which dynamically generates convolution kernel based on the edge features it learned from the point clouds. For its capability to dynamically generate kernels, the model is named Dynamic Filter CNN.
 
-Further information please contact [Yue Wang](https://www.csail.mit.edu/person/yue-wang) and [Yongbin Sun](https://autoid.mit.edu/people-2).
 
-## Requirements
-* [TensorFlow](https://www.tensorflow.org/)
+## Model Architecture
 
-## Point Cloud Classification
-* Run the training script:
-``` bash
-python train.py
-```
-* Run the evaluation script after training finished:
-``` bash
-python evalutate.py
 
-```
 
-## Citation
-Please cite this paper if you want to use it in your work,
 
-	@article{dgcnn,
-	  title={Dynamic Graph CNN for Learning on Point Clouds},
-	  author={Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, Justin M. Solomon},
-	  journal={arXiv preprint arXiv:1801.07829},
-	  year={2018}
-	}
+## Implementations
 
-## License
-MIT License
+The model is implemented in TensorFlow. 
 
 ## Acknowledgement
-This code is heavily borrowed from [PointNet](https://github.com/charlesq34/pointnet).
+
+Our work borrows from many other papers in the field of 3D Point Cloud Deep Learning. The works we referred to are as follows:
+
+
+* Li, Yangyan, et al. "PointCNN: Convolution on X-transformed points." Advances in Neural 	Information Processing Systems. 2018.
+
+* Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classification and 	segmentation." Proceedings of the IEEE Conference on Computer Vision and Pattern 	Recognition. 2017.
+
+* Qi, Charles Ruizhongtai, et al. "Pointnet++: Deep hierarchical feature learning on point sets 	in a metric space." Advances in Neural Information Processing Systems. 2017.
+
+* Wang, Yue, et al. "Dynamic graph cnn for learning on point clouds." arXiv preprint 	arXiv:1801.07829 (2018).
+
+* Simonovsky, Martin, and Nikos Komodakis. "Dynamic edge-conditioned filters in 	convolutional neural networks on graphs." Proceedings of the IEEE conference on 	computer vision and pattern recognition. 2017.
+
