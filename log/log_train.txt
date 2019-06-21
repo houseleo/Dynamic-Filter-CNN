@@ -1,0 +1,49 @@
+Namespace(batch_size=16, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.0005, log_dir='log', max_epoch=160, model='dfcnn', momentum=0.9, num_point=1024, optimizer='adam')
+**** EPOCH 000 ****
+----0-----
+mean loss: 3.817603
+accuracy: 0.106934
+----1-----
+mean loss: 3.441201
+accuracy: 0.203125
+----2-----
+mean loss: 3.242017
+accuracy: 0.242676
+----3-----
+mean loss: 3.139089
+accuracy: 0.273926
+----4-----
+mean loss: 3.002499
+accuracy: 0.300364
+----0-----
+----1-----
+eval mean loss: 2.722327
+eval accuracy: 0.354302
+eval avg class acc: 0.239742
+Model saved in file: log/model.ckpt
+**** EPOCH 001 ****
+----0-----
+mean loss: 2.941196
+accuracy: 0.331543
+----1-----
+mean loss: 2.827313
+accuracy: 0.373047
+----2-----
+mean loss: 2.755682
+accuracy: 0.393555
+----3-----
+mean loss: 2.707650
+accuracy: 0.419296
+----4-----
+mean loss: 2.595300
+accuracy: 0.463379
+----0-----
+----1-----
+eval mean loss: 2.351824
+eval accuracy: 0.559253
+eval avg class acc: 0.466076
+**** EPOCH 002 ****
+----0-----
+mean loss: 2.552673
+accuracy: 0.482910
+----1-----
