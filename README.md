@@ -1,15 +1,5 @@
 # Dynamic-Filter-CNN for 3D Object Classification in Point Clouds
 
-## Authors
-
-This repository is the work of Guanghua Pan from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is a research project under the Brain-Inspired Application Technology Center(BATC) at Shanghai Jiaotong University.
-
-
-Further information about BATC, please visit: http://bat.sjtu.edu.cn/
-
-
-Further information about the model please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/) and [Guanghua](https://github.com/SteveJokes/)
-
 ## Overview
 
 We propose a new neural network architecture for classification of objects in 3D point cloud data. We applied convolution layers which dynamically generates convolution kernel based on the edge features it learned from the point clouds. For its dynamic generation of conv. kernels, the model is named Dynamic Filter CNN.
@@ -19,6 +9,13 @@ We propose a new neural network architecture for classification of objects in 3D
 
 <img src='./image/architecture.png'>
 
+## Authors
+
+This repository is the work of Guanghua Pan and Prince Wang. It is a research project under the Brain-Inspired Application Technology Center(BATC) at Shanghai Jiaotong University.
+
+Further information about BATC, please visit: http://bat.sjtu.edu.cn/
+
+Further information about the model please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/) and [Guanghua](https://github.com/SteveJokes/)
 
 ## Implementation
 
