@@ -29,8 +29,6 @@ The model is implemented in TensorFlow.
 Our work borrows from many other papers in the field of 3D Point Cloud Deep Learning. The works we referred to are as follows:
 
 
-* Garimella, Mihir, and Prathik Naidu. “Beyond the Pixel Plane: Sensing and Learning in 	3D.” The Gradient, The Gradient, 27 Aug. 2018, thegradient.pub/beyond-the-pixel-	plane-sensing-and-learning-in-3d/.
-
 * Li, Yangyan, et al. "PointCNN: Convolution on X-transformed points." Advances in Neural 	Information Processing Systems. 2018.
 
 * Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classification and 	segmentation." Proceedings of the IEEE Conference on Computer Vision and Pattern 	Recognition. 2017.
