@@ -12,7 +12,7 @@ Further information please contact [Prince Wang](https://www.linkedin.com/in/pri
 
 ## Overview
 
-We propose a new neural network for classification of objects in 3D point cloud data. We applied four layers of convolution which dynamically generates convolution kernel based on the edge features it learned from the point clouds. For its capability to dynamically generate kernels, model is named Dynamic Filter CNN.
+We propose a new neural network for classification of objects in 3D point cloud data. We applied four layers of convolution which dynamically generates convolution kernel based on the edge features it learned from the point clouds. For its capability to dynamically generate kernels, the model is named Dynamic Filter CNN.
 
 
 ## Model Architecture
