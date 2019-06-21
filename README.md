@@ -45,7 +45,7 @@ To see HELP for the training script:
 
     python train.py -h
 
-To use use TensorBoard to view the network architecture and visualize the training progress.
+To use TensorBoard to view the network architecture and visualize the training progress.
 
     tensorboard --logdir log
 
