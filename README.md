@@ -17,7 +17,7 @@ We propose a new neural network for classification of objects in 3D point cloud 
 
 ## Model Architecture
 
-
+<img src='./image/architecture.png'>
 
 
 ## Implementations
