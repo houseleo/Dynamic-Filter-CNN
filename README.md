@@ -24,6 +24,16 @@ We propose a new neural network for classification of objects in 3D point cloud 
 
 The model is implemented in TensorFlow. 
 
+## Installation
+
+Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. You may also need to install h5py.
+
+To install h5py for Python:
+```bash
+sudo apt-get install libhdf5-dev
+sudo pip install h5py
+```
+
 ## Usage
 To train a model to classify point clouds sampled from 3D shapes:
 
