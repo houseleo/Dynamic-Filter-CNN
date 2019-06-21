@@ -24,6 +24,35 @@ We propose a new neural network for classification of objects in 3D point cloud 
 
 The model is implemented in TensorFlow. 
 
+## Installation
+
+Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. You may also need to install h5py.
+
+To install h5py for Python:
+```bash
+sudo apt-get install libhdf5-dev
+sudo pip install h5py
+```
+
+## Usage
+To train a model to classify point clouds sampled from 3D shapes:
+
+    python train.py
+
+Log files and network parameters will be saved to `log` folder in default. Point clouds of <a href="http://modelnet.cs.princeton.edu/" target="_blank">ModelNet40</a> models in HDF5 files are already included in this repository. Each point cloud contains 1024 points uniformly sampled from a shape surface. Each cloud is zero-mean and normalized into an unit sphere. 
+
+To see HELP for the training script:
+
+    python train.py -h
+
+To use use TensorBoard to view the network architecture and visualize the training progress.
+
+    tensorboard --logdir log
+
+After the above training, to evaluate the model:
+
+    python evaluate.py
+
 ## Acknowledgement
 
 Our work borrows from many other papers in the field of 3D Point Cloud Deep Learning. The works we referred to are as follows:
