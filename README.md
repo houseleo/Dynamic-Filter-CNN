@@ -24,7 +24,7 @@ We propose a new neural network for classification of objects in 3D point cloud 
 
 The model is implemented in TensorFlow. 
 
-## Citation
+## Acknowledgement
 
 Our work borrows from many other papers in the field of 3D Point Cloud Deep Learning. The works we referred to are as follows:
 
@@ -41,7 +41,3 @@ Our work borrows from many other papers in the field of 3D Point Cloud Deep Lear
 
 * Simonovsky, Martin, and Nikos Komodakis. "Dynamic edge-conditioned filters in 	convolutional neural networks on graphs." Proceedings of the IEEE conference on 	computer vision and pattern recognition. 2017.
 
-```
-
-## Acknowledgement
-This code is heavily borrowed from [dgcnn](https://github.com/WangYueFt/dgcnn).
