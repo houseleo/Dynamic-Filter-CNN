@@ -1,6 +1,6 @@
 # Dynamic-Filter-CNN for Object Classification in Point Clouds
 
-## Side Note
+## Authors
 
 This repository is the work of Pan Guanghua from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is a research project under the Brain-Inspired Application Technology Center(BATC) at Shanghai Jiaotong University.
 
