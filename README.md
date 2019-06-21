@@ -2,13 +2,13 @@
 
 ## Authors
 
-This repository is the work of Pan Guanghua from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is a research project under the Brain-Inspired Application Technology Center(BATC) at Shanghai Jiaotong University.
+This repository is the work of Guanghua Pan from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is a research project under the Brain-Inspired Application Technology Center(BATC) at Shanghai Jiaotong University.
 
 
 Further information about BATC, please visit: http://bat.sjtu.edu.cn/
 
 
-Further information about the model please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/)
+Further information about the model please contact [Prince Wang](https://www.linkedin.com/in/prince-wang-19511717a/) and [Guanghua](https://github.com/SteveJokes/)
 
 ## Overview
 
