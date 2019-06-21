@@ -2,7 +2,7 @@
 
 ## Side Note
 
-This repository is the work of Pan Guanghua from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is an on-going project under the Brain-Inspired Application Technology Center(BATC).
+This repository is the work of Pan Guanghua from Shanghai Jiaotong University and Prince Wang from the University of California-Berkeley. It is a research project under the Brain-Inspired Application Technology Center(BATC) at Shanghai Jiaotong University.
 
 
 Further information about BATC, please visit: http://bat.sjtu.edu.cn/
@@ -20,7 +20,7 @@ We propose a new neural network for classification of objects in 3D point cloud 
 <img src='./image/architecture.png'>
 
 
-## Implementations
+## Implementation
 
 The model is implemented in TensorFlow. 
 
